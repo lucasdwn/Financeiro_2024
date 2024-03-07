@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces.InterfaceServicos
 {
-    public interface ICategoriaServico
+    public interface IUsuarioSistemaFinanceiroServico
     {
-        Task AdicionarCategoria(Categoria categoria);
-        Task AtualizarCategoria(Categoria categoria);
+        Task CadastrarUsuarioNoSistema(UsuarioSistemaFinanceiro usuarioSistemaFinanceiro);
+
     }
 }
